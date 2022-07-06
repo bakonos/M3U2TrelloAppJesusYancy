@@ -1,0 +1,96 @@
+.body
+{
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 28%, rgba(236,233,230,1) 47%);
+    
+}
+
+
+
+.titulo_proyecto
+{
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 600px;
+    font-size: 30px;
+}
+
+
+.kanban
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px;
+    width: auto;
+    background: #32327e;
+    border-radius: 5px;
+    margin: 1%;
+}
+
+.kanban * 
+{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.kanban_column_title
+{
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: white;
+    user-select: none;
+}
+
+.kanban_element_input
+{
+    padding: 10px 15px;
+    box-sizing: border-box;
+    background: white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.kanban_column_one
+{
+    width: 32%;
+}
+
+.kanban_column_two
+{
+    width: 35%;
+}
+
+.kanban_column_three
+{
+    width: 32%;
+}
+
+.kanban_column_one, .kanban_column_two, .kanban_column_three
+{
+    padding: 5%;
+}
+
+.kanban_droparea
+{
+    height: 10px;
+    transition: background 0.15, height 0.15s
+}
+
+.kanban_droparea--activate
+{
+    height: 20px;
+    background: rgba(0, 0, 0, 0.25);
+}
+
+.kanban_add_element
+{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: white;
+    background: rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
