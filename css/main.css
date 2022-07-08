@@ -1,0 +1,164 @@
+*
+{
+    margin: auto;   
+}
+
+.body
+{
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 28%, rgba(236,233,230,1) 47%);
+    
+}
+
+.titulo_proyecto
+{
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 600px;
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+
+
+.kanban
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px;
+    width: 45%;
+    background: #32327e;
+    border-radius: 5px;
+    margin: 1%;
+    float: right;
+}
+
+.kanban * 
+{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.kanban_column_title
+{
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: white;
+    user-select: none;
+}
+
+.kanban_element_input
+{
+    display: flex;
+    width: 35%;
+    height: auto;
+    background: rgb(107, 112, 190);
+    flex-wrap: wrap;
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+    border-radius: 5px;
+    min-height: 349px;
+    
+}
+
+.titulo_form
+{
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    box-sizing: border-box;
+    margin-top: 5%;
+    color: white;
+}
+
+.form_nueva_tarea
+{
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 20px 0 12px 0;
+    width: auto;
+    padding: 2px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    line-height: 1.5;
+    padding: 15px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    
+}
+
+.form_nueva_tarea input
+{
+    height: 25px;
+    width: 80%;
+    margin-bottom: 3%;
+
+}
+
+.form_nueva_tarea label
+{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.descripcion
+{
+    flex: 0 1 auto;
+}
+
+.fecha
+{
+    text-align: center;
+    font-family: sans-serif;
+    color: grey;
+}
+
+.añadir_tarea
+{
+    width: 30%;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.kanban_column_one
+{
+    width: 32%;
+}
+
+.kanban_column_two
+{
+    width: 35%;
+}
+
+.kanban_column_three
+{
+    width: 32%;
+}
+
+.kanban_column_one, .kanban_column_two, .kanban_column_three
+{
+    padding: 5%;
+}
+
+.kanban_droparea
+{
+    height: 80px;
+    transition: background 0.15, height 0.15s;
+}
+
+.kanban_droparea--activate
+{
+    height: 20px;
+    background: rgba(0, 0, 0, 0.25);
+}
+
