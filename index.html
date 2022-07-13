@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kantask</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="icon" href="favicon-16x16.png">
 </head>
 <body class="body">
@@ -22,6 +22,27 @@
 
     <section>
         <div class="kanban">
+            <div class="kanban_element_input">
+                <label class="titulo_form" for="form">Nueva tarea</label>
+                
+                <form class="form_nueva_tarea" id="form">
+                    <label for="titulo_tarea">Título de la tarea</label>
+                    <input class="titulo_tarea" id="titulo_tarea" type="text">
+        
+                    <label for="descripcion_tarea">Descripción de la tarea</label>
+                    <input class="descripcion" id="descripcion_tarea" type="text">
+        
+                    <label for="Responsable">Responsable</label>
+                    <input class="Responsable" id="Responsable_tarea" type="text">
+        
+                    <label for="fecha_entrega">Fecha de entrega</label>
+                    <input class="fecha" id="fecha_entrega" type="date">
+                    
+                    <button class="añadir_tarea" id="añadir" type="submit">Agregar</button>
+                </form>
+                
+            </div>
+
             <div class="kanban_column_one">
                 <div class="kanban_column_title">Tarea por hacer</div>
                 <div class="kanban_elements">
@@ -50,30 +71,7 @@
             </div>
         </div>    
     </section>
-    </div>
-
-    <div class="kanban_element_input">
-        <label class="titulo_form" for="form">Nueva tarea</label>
-        
-        <form class="form_nueva_tarea" id="form">
-            <label for="titulo_tarea">Título de la tarea</label>
-            <input class="titulo_tarea" id="titulo_tarea" type="text">
-
-            <label for="descripcion_tarea">Descripción de la tarea</label>
-            <input class="descripcion" id="descripcion_tarea" type="text">
-
-            <label for="Responsable">Responsable</label>
-            <input class="Responsable" id="Responsable_tarea" type="text">
-
-            <label for="fecha_entrega">Fecha de entrega</label>
-            <input class="fecha" id="fecha_entrega" type="date">
-            
-            <button class="añadir_tarea" id="añadir" type="submit">Agregar</button>
-        </form>
-        
-    </div>
-   
-       
+    </div>        
     </div>
 </body>
 </html>
