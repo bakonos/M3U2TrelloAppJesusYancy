@@ -16,7 +16,8 @@
     text-align: center;
     font-weight: 600px;
     font-size: 30px;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
+    margin-top: 2%;
 }
 
 
@@ -136,18 +137,21 @@
 {
     width: 20%;
     background: #32327e;
+    border-radius: 5px;
 }
 
 .kanban_column_two
 {
     width: 20%;
     background: #32327e;
+    border-radius: 5px;
 }
 
 .kanban_column_three
 {
     width: 20%;
     background: #32327e;
+    border-radius: 5px;
 }
 
 .kanban_column_one, .kanban_column_two, .kanban_column_three
