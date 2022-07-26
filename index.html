@@ -43,7 +43,7 @@
                 
             </div>
 
-            <div class="kanban_column_one">
+            <div class="kanban_column_one" id="todoTasks">
                 <div class="kanban_column_title">Tarea por hacer</div>
                 <div class="kanban_elements">
                     <br>
@@ -52,7 +52,7 @@
                 
             </div>
             
-            <div class="kanban_column_two">
+            <div class="kanban_column_two" id="progressTask">
                 <div class="kanban_column_title">En progreso</div>
                 <div class="kanban_elements">
                     <br>
@@ -61,7 +61,7 @@
                 
             </div>
 
-            <div class="kanban_column_three">
+            <div class="kanban_column_three" id="donetasks">
                 <div class="kanban_column_title">Realizado</div>
                 <div class="kanban_elements">
                     <br>
@@ -73,5 +73,8 @@
     </section>
     </div>        
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script src="./request.js"></script>
 </body>
 </html>
