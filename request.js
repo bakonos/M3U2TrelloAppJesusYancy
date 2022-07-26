@@ -5,8 +5,9 @@ axios
   .then((res) => showAllTasks(res.data))
   .catch((err) => console.error(err));
 
-  const showAllTasks = (data) => {
+const showAllTasks = (data) => {
   data.map((task) => createTask(task));
+  console.log(data)
 };
 
 const createTask = (task) => {
@@ -35,26 +36,12 @@ const createTask = (task) => {
     taskDetails.classList.add("card-task__details");
     // Le pasamos los datos desde la API y los imprimimos en las tarjetas
     taskDetails.innerHTML = `<span class="card-task__details--task-details">Descripción:</span> ${task.details} `;
-  
-    //Creamos una etiqueta parrafo para crear la fecha
-    let taskDate = document.createElement("p");
-    //le pasamos la clase card-task__date
-    taskDate.classList.add("card-task__date");
-    // Le añadimos la fecha que traemos desde la API utilizando los template string
-    taskDate.innerHTML = `<span class="card-task__date--tag-date">Plazo:</span> ${dateFormat(
-      task.deadline
-    )}`;
-  
+
     let taskCreate = document.createElement("p");
-    taskCreate.classList.add("card-task__date");
-    taskCreate.innerHTML = `<span class="card-task__date--tag-date">Creación:</span> ${dateFormat(
-      task.created
-    )}`;
-  
+
     newTask.appendChild(taskTitle);
     newTask.appendChild(taskResponsible);
     newTask.appendChild(taskDetails);
-    newTask.appendChild(taskDate);
     newTask.appendChild(taskCreate);
   
     // Referenciamos por medio del ID las columnas
