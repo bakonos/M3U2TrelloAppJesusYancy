@@ -161,8 +161,8 @@
 
 .kanban_droparea
 {
-    height: 80px;
-    transition: background 0.15, height 0.15s;
+    height:50%;
+
 }
 
 

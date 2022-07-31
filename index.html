@@ -7,6 +7,7 @@
     <title>Kantask</title>
     <link rel="stylesheet" href="./css/main.css">
     <link rel="icon" href="favicon-16x16.png">
+    <link rel="stylesheet" href="./css/card_styles.css">
 </head>
 <body class="body">
 
@@ -43,11 +44,12 @@
                 
             </div>
 
-            <div class="kanban_column_one" id="todoTasks">
+            <div class="kanban_column_one">
                 <div class="kanban_column_title">Tarea por hacer</div>
                 <div class="kanban_elements">
                     <br>
-                    <div class="kanban_droparea"></div>
+                    <div class="kanban_droparea" id="todoTasks"></div>
+                    
                 </div>
                 
             </div>
@@ -74,7 +76,9 @@
     </div>        
     </div>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@shopify/draggable@1.0.0-beta.13/lib/draggable.bundle.js"></script>
 
     <script src="./request.js"></script>
+    <script src="./move/dragndrop.js"></script>
 </body>
 </html>
