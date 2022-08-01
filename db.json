@@ -2,19 +2,19 @@
     "tasks": [
         {
             "id": 1,
-            "title": "Fronted",
-            "details": "Crear la app kanban",
-            "person": "Juan Alberto",
-            "state": "to-do",
+            "title": "App tipo Kanban",
+            "details": "Aplicar lo aprendido en esta unidad",
+            "person": "Jesús Yancy",
+            "state": "done",
             "deadline": "2022-07-31",
             "created": "2022-07-28"
         },
         {
             "id": 2,
-            "title": "Backend",
-            "details": "Crear base de datos",
-            "person": "Roberto Lewandoski",
-            "state": "done",
+            "title": "Jugar fútbol",
+            "details": "Jugar en el FC Barcelona y ser el goleador",
+            "person": "Roberto Lewandoswki",
+            "state": "in-progress",
             "deadline": "2022-07-31",
             "created": "2022-07-28"
         }

@@ -1,1 +1,1 @@
-Primer avance de la entrega número uno
+Aplicación tipo Kanban que permite crear una nueva tarea y asignarla en tres estados de acuerdo con el progreso que llevemos.
