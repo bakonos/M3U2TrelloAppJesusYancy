@@ -6,8 +6,8 @@
             "details": "Crear la app kanban",
             "person": "Juan Alberto",
             "state": "to-do",
-            "deadline": 1615352159,
-            "created": 1615352159
+            "deadline": "2022-07-31",
+            "created": "2022-07-28"
         },
         {
             "id": 2,
@@ -15,8 +15,8 @@
             "details": "Crear base de datos",
             "person": "Roberto Lewandoski",
             "state": "done",
-            "deadline": 1615352159,
-            "created": 1615352159
+            "deadline": "2022-07-31",
+            "created": "2022-07-28"
         }
     ]
 }

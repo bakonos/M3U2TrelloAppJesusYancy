@@ -1,5 +1,4 @@
-const sor = new Sortable.default
-(
-    document.querySelectorAll('.kanban_droparea'),
+const sor = new Draggable.Sortable(
+    document.querySelectorAll('.kanban_column'),
     {draggable: 'article'}
 )

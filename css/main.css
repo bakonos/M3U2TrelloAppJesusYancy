@@ -46,6 +46,7 @@
     font-size: 20px;
     color: white;
     user-select: none;
+    font-weight: bold;
 }
 
 .kanban_element_input
@@ -108,11 +109,6 @@
     margin-bottom: 1%;
 }
 
-.descripcion
-{
-    flex: 0 1 auto;
-}
-
 .fecha
 {
     text-align: center;
@@ -133,36 +129,12 @@
     cursor: pointer;
 }
 
-.kanban_column_one
+.kanban_column
 {
-    width: 20%;
-    background: #32327e;
+    width: 23%;
     border-radius: 5px;
-}
-
-.kanban_column_two
-{
-    width: 20%;
-    background: #32327e;
-    border-radius: 5px;
-}
-
-.kanban_column_three
-{
-    width: 20%;
-    background: #32327e;
-    border-radius: 5px;
-}
-
-.kanban_column_one, .kanban_column_two, .kanban_column_three
-{
     padding: 5%;
 }
 
-.kanban_droparea
-{
-    height:50%;
-
-}
 
 

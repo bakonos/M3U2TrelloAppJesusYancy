@@ -1,4 +1,27 @@
-.card-task
+.card-task 
 {
-    background: rgb(255, 255, 255);
+  padding: 5%;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);;
+  border-radius: 5px;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+
+.card-task:hover
+{
+  transform: scale(1.01);
+}
+
+.card-task__title 
+{
+  font-size: 20px;
+  color: black;
+}
+
+.card_task__responsible,
+.card-task__date,
+.card__details
+{
+  font-size: 17px;
+  color: black;
 }
